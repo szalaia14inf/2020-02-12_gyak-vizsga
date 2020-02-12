@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+	background-color: #ffffff;
+}
+
+#background{
+	background-color:#000000;
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	opacity:0.4;
+	z-index:-5;
+	visibility:visible;
+	overflow:hidden;
+}
+
+#container{
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	width:1000px;
+}
+
+#header{
+	background: url(../images/suli.png) top left no-repeat #000000;
+	float:left;
+	width:1000px;
+	height:128px;
+	border-radius:8px;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E98300;
+	margin:0 0 10px;
+	background-color:#000000;
+	text-align:center;
+	}
+
+#suli{
+	width:260px;
+	height:128px;
+	float:right;
+}
+#suli p{
+	margin:8px 12px 0;
+	color:#0395d0;
+	font-size:24px;
+	line-height:28px;
+	text-align:center;
+	font-weight:normal;
+}
+
+#menu{
+	margin:0 0 5px;
+	padding:0;
+}
+
+.menuitem{
+	width:110px;
+	float:left;
+	margin: 0 5px 5px;
+	border-radius:5px;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E98300;
+	
+}
+
+.menuitem a{
+	display: block;
+	height:21px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 7px 0 0;
+	background: #000000 url(../images/menu-blue.gif) top left repeat-x;
+}
+
+.menuitem a:hover{
+	background: #000000 url(../images/menu-lime.gif) top left repeat-x;
+}
+.menuitem a.activemenu{
+	background:#000000 url(../images/menu-lime.gif) top left repeat-x;
+	border:none;
+}
+
+.main{
+	width:980px;
+	min-height:400px;
+	border-radius:8px;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E98300;
+	background-color:#F0F0F0;
+	margin:10px auto; 
+	padding:10px;
+}
+
+#content{
+	border-radius:8px;
+	border-width:2px;
+	border-style:solid;
+	border-color:#E98300;
+	float:right;
+	background-color:#F0F0F0;
+	margin:0 0 12px;
+	padding:10px;
+	width:826px;
+	min-height:400px;
+}
+
+#footer{
+	width: 980px;
+	height:70px;
+	border-radius: 8px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #E98300;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 10px 10px 0;
+}
+
+.doboz{
+	width:190px;
+	float:left;
+	margin: 0;
+}
