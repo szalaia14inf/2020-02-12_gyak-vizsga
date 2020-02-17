@@ -1,9 +1,8 @@
 <?php
 
-	$con=mysql_connect("172.16.5.12","root","");
-    
-	mysql_set_charset('utf8',$con); 
-
-    mysql_select_db("vevo",$con);
+$config['db_host'] = 'localhost';
+$config['db_user'] = 'root';
+$config['db_pass'] = '';
+$config['db_name'] = 'tanarok';
     
 ?>
